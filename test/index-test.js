@@ -42,8 +42,8 @@ describe('index', () => {
     }, (err, window) => {
       expect(spy).toHaveBeenCalled('expected console.warn to have been called')
       console.warn.restore()
-      console.warn("Danger!")
       done()
+      console.warn("Danger!")
     })
   })
 })
