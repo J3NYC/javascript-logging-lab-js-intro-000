@@ -18,10 +18,10 @@ describe('index', () => {
       console.error.restore()
 
       done()
-
+console.error()
     })
   })
-console.error()
+
 
 
   it('calls console.log("I would be a logger")', done => {
