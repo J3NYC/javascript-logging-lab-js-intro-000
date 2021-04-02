@@ -21,7 +21,7 @@ describe('index', () => {
 
     })
   })
-
+console.error()
 
 
   it('calls console.log("I would be a logger")', done => {
